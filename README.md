@@ -1,6 +1,6 @@
 # Semantic Segmentation on KITTI Road Dataset
 ## Deep Learning for Computer Vision
------
+---
 
 ![](Processed_KITTI_dataset.gif)
 
