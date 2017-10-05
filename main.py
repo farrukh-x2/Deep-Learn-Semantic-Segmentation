@@ -86,7 +86,7 @@ def layers(vgg_layer3_out, vgg_layer4_out, vgg_layer7_out, num_classes):
 
     skip_1 = tf.add(up_sampled_1, vgg_layer4_1x1)
     
-    up_sampled_2 = tf.layers.conv2d_transpose(up_sampled_1, num_classes,4,2, padding='same',
+    up_sampled_2 = tf.layers.conv2d_transpose(skip_1, num_classes,4,2, padding='same',
                              kernel_regularizer=kernel_regularizer,kernel_initializer = kernel_initializer)
     #print (up_sampled_2.get_shape)
     
