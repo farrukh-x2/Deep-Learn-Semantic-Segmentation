@@ -24,6 +24,8 @@ After tunning the following parameters were used for the best results:
 * Batch Size : 8
 * Learning Rate : 0.00005
 
+#### Trained on AWS using the g3.4x instance
+
 ### Requirements
 ##### Frameworks and Packages
 The following packages are required:
